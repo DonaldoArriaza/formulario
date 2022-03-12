@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ejemplo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-zen-garden.css" />
+</head>
+
+<body>
+    <form id="form-login">
+        <label for="nombre-login">Nombre: </label>
+        <input type="text" id="nombre-login" required />
+        <div id="err-nombre"></div>
+        <label for="email-login">Email: </label>
+        <input type="text" id="email-login" required />
+        <div id="err-email"></div>
+        <label for="pass-login">Contraseña: </label>
+        <input type="text" id="pass-login" required />
+        <div id="err-pass"></div>
+        <label for="date-login">Fecha de nacimiento: </label>
+        <input type="date" id="date-login" required />
+        <div id="err-date"></div>
+        <input type="submit" value="Inicial Sesion" />
+
+    </form>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

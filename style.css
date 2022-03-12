@@ -1,0 +1,31 @@
+form {
+    border-radius: 25px;
+    border-width: medium;
+    border-style: double;
+    text-align: center;
+    padding: 30px;
+}
+
+label {
+    float: left;
+    clear: both;
+}
+
+input[type="text"],
+input[type="password"] {
+    float: right;
+}
+
+input[type="submit"] {
+    clear: both;
+    display: block;
+}
+
+div {
+    clear: both;
+    display: block;
+    width: 100%;
+    color: red;
+    text-transform: uppercase;
+    font-size: large;
+}
